@@ -1,1 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
 
+.container {
+    width: 100%;
+}
+
+.virtualPage {
+    min-height: 100vh;
+}
