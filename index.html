@@ -29,6 +29,13 @@
             
             <div id="contact" class="virtualPage">
                 <h2>Contact Me</h2>
+                <form name="frmContact" method="post" action="http://www.temple.edu/cgi-bin/mail?[YOUR_TUID]@temple.edu">
+                    Name: <input type="text" name="theirName" placeholder="Your Name"/> <br/><br/>
+                    Email: <input type="email" name="theirEmail" placeholder="Valid Email"/>
+                    <br/><br/>
+                    Message: <textarea name="theirMsg" cols="45" rows="5"></textarea>
+                    <input type="submit" value="Send!" onclick="ValidateInput()">
+                </form>
             </div>
         </div>
     </body>
