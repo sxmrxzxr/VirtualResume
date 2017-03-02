@@ -1,42 +1,51 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <title>Resume - [Your Name]</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <div class="container">
-            <div id="navBar">
-                <ul class="nav">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            
-            <div id="landing" class="virtualPage">
-                <h2>Your Name</h2>
-            </div>
-            
-            <div id="about" class="virtualPage">
-                <h2>About Me</h2>
-            </div>
-            
-            <div id="work" class="virtualPage">
-                <h2>Recent Work</h2>
-            </div>
-            
-            <div id="contact" class="virtualPage">
-                <h2>Contact Me</h2>
-                <form name="frmContact" method="post" action="http://www.temple.edu/cgi-bin/mail?[YOUR_TUID]@temple.edu">
-                    Name: <input type="text" name="theirName" placeholder="Your Name"/> <br/><br/>
-                    Email: <input type="email" name="theirEmail" placeholder="Valid Email"/>
-                    <br/><br/>
-                    Message: <textarea name="theirMsg" cols="45" rows="5"></textarea>
-                    <input type="submit" value="Send!" onclick="ValidateInput()">
-                </form>
-            </div>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Resume - [Your Name]</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="navBar">
+            <ul class="nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </body>
+
+        <div id="landing" class="virtualPage">
+            <h2>Your Name</h2>
+        </div>
+
+        <div id="about" class="virtualPage">
+            <h2>About Me</h2>
+        </div>
+
+        <div id="work" class="virtualPage">
+            <h2>Recent Work</h2>
+        </div>
+
+        <div id="contact" class="virtualPage">
+            <h2>Contact Me</h2>
+            <form name="frmContact" method="post" action="http://www.temple.edu/cgi-bin/mail?tue95606@temple.edu">
+                Name:
+                <input type="text" name="theirName" placeholder="Your Name" />
+                <br/>
+                <br/> Email:
+                <input type="email" name="theirEmail" placeholder="Valid Email" />
+                <br/>
+                <br/> Message:
+                <textarea name="theirMsg" cols="45" rows="5"></textarea>
+                <input type="submit" value="Send!">
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
