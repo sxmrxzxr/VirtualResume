@@ -13,7 +13,7 @@ body {
 }
 
 #landing {
-    background: url("../img/landing.JPG") center repeat;
+    background: url("../img/landing.JPG") center no-repeat;
 }
 
 #about {
